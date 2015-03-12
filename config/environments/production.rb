@@ -77,4 +77,8 @@ Pinteresting::Application.configure do
 
   # Use default logging formatter so that PID and timestamp are not suppressed.
   config.log_formatter = ::Logger::Formatter.new
+
+  # Required for Heroku devise setup
+  # Note to set this to your actual host
+  config.action_mailer.default_url_options = { host: => 'marquina-pinteresting.herokuapp.com'}
 end
