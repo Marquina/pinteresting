@@ -80,5 +80,5 @@ Pinteresting::Application.configure do
 
   # Required for Heroku devise setup
   # Note to set this to your actual host
-  config.action_mailer.default_url_options = { host: => 'marquina-pinteresting.herokuapp.com'}
+  config.action_mailer.default_url_options = { host: 'marquina-pinteresting.herokuapp.com'}
 end
